@@ -10,7 +10,10 @@
 h1,
 h2,
 h3,
-p n {
+h4,
+h5,
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -50,6 +53,9 @@ img {
   margin-left: 156px;
   margin-right: 156px;
 }
+.section {
+  padding-top: 120px;
+}
 /*header*/
 /*.header {
   background-color: var(--color-header);
@@ -67,6 +73,7 @@ img {
 .studio-header {
   color: var(--color-base);
   font-family: "Raleway", sans-serif;
+  padding-right: 76px;
 }
 .studio-footer {
   color: var(--color-team);
@@ -108,6 +115,7 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  padding-top: 188px;
 }
 .but {
   font-family: "Roboto", sans-serif;
@@ -118,10 +126,18 @@ img {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
 }
+
 .but:hover,
 .but:focus {
   background-color: var(--color-ocean);
+}
+.container-but {
+  padding-top: 48px;
+  padding-bottom: 188px;
+  display: flex;
+  justify-content: center;
 }
 .quality-name {
   color: var(--color-base);
@@ -129,13 +145,23 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
+  padding-top: 32px;
 }
 
 .quality-text {
   color: var(--color-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
+.container-text {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-basis: 264px;
+}
+
 .work-name {
   color: var(--color-base);
   font-size: 36px;
@@ -143,6 +169,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .team {
   background-color: var(--color-team);
@@ -150,11 +177,20 @@ img {
 .team-section {
   background-color: var(--color-white);
 }
+.container-team {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
+  text-align: center;
+}
 /*footer*/
+
 .text-footer {
   color: var(--color-team);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 17.5px;
+  padding-bottom: 100px;
 }
 /*portfolio-main*/
 .button-portfolio {
@@ -177,4 +213,31 @@ img {
 }
 .link {
   text-decoration: none;
+}
+.nav-items {
+  display: flex;
+  gap: 40px;
+}
+.container-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.nav-contacts {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+}
+.container-name {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 240px;
+}
+.container-footer {
+  width: 264px;
+  padding-top: 101.5px;
+  margin-left: 150px;
+  margin-right: 150px;
+  flex-shrink: 0;
 }
