@@ -6,12 +6,24 @@
   --color-team: #f4f4fd;
   --color-ocean: #404bbf;
   --color-cornflower: #e7e9fc;
-  /* --color-header: #e7e9fc;*/
+}
+h1,
+h2,
+h3,
+p n {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .base {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
   background-color: var(--color-white);
+  width: 1440px;
 }
 /*header*/
 /*.header {
