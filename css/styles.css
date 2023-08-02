@@ -127,12 +127,11 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  padding-top: 188px;
   max-width: 496px;
 }
 .but {
   display: block;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif;*/
   cursor: pointer;
   background-color: var(--color-blue);
   color: var(--color-white);
@@ -140,7 +139,7 @@ img {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.04em;
-  padding: 16px 32px;
+
   min-width: 169px;
   height: 56px;
   border: none;
